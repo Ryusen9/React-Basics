@@ -7,7 +7,8 @@
 // import UseStateObj from "./Components/UseStateObj"
 // import Counter from "./Components/Counter"
 // import TodoList from "./Components/Todolist"
-import Profile from "./Components/Profile"
+// import Profile from "./Components/Profile"
+import ShoppingList from "./Components/ShoppingList"
 // import Weather from "./Components/Weather"
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <UseStateObj/> */}
       {/* <Counter/> */}
       {/* <TodoList/> */}
-      <Profile/>
+      {/* <Profile/> */}
+      <ShoppingList/>
     </>
   )
 }
