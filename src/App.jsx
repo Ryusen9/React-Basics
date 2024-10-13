@@ -8,7 +8,12 @@
 // import Counter from "./Components/Counter"
 // import TodoList from "./Components/Todolist"
 // import Profile from "./Components/Profile"
-import ShoppingList from "./Components/ShoppingList"
+// import ShoppingList from "./Components/ShoppingList"
+// import BasicEffect from "./Components/BasicEffect"
+// import CounterEffect from "./Components/CounterEffect"
+
+import FetchDataEffect from "./Components/FetchDataEffect"
+
 // import Weather from "./Components/Weather"
 function App() {
   return (
@@ -24,7 +29,10 @@ function App() {
       {/* <Counter/> */}
       {/* <TodoList/> */}
       {/* <Profile/> */}
-      <ShoppingList/>
+      {/* <ShoppingList/> */}
+      {/* <BasicEffect/> */}
+      {/* <CounterEffect/> */}
+      <FetchDataEffect/>
     </>
   )
 }
