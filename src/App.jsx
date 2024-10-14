@@ -11,9 +11,8 @@
 // import ShoppingList from "./Components/ShoppingList"
 // import BasicEffect from "./Components/BasicEffect"
 // import CounterEffect from "./Components/CounterEffect"
-
-import FetchDataEffect from "./Components/FetchDataEffect"
-
+// import FetchDataEffect from "./Components/FetchDataEffect"
+import UserProfile from "./Components/UserProfile"
 // import Weather from "./Components/Weather"
 function App() {
   return (
@@ -32,7 +31,8 @@ function App() {
       {/* <ShoppingList/> */}
       {/* <BasicEffect/> */}
       {/* <CounterEffect/> */}
-      <FetchDataEffect/>
+      {/* <FetchDataEffect/> */}
+      <UserProfile/>
     </>
   )
 }
