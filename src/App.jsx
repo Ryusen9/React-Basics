@@ -12,6 +12,7 @@
 // import BasicEffect from "./Components/BasicEffect"
 // import CounterEffect from "./Components/CounterEffect"
 // import FetchDataEffect from "./Components/FetchDataEffect"
+import UpdateUser from "./Components/UpdateUser";
 import UserProfile from "./Components/UserProfile";
 import { UserProvider } from "./UserContext";
 // import Weather from "./Components/Weather"
@@ -35,6 +36,7 @@ function App() {
       {/* <FetchDataEffect/> */}
       <UserProvider>
         <UserProfile />
+        <UpdateUser/>
       </UserProvider>
     </>
   );
