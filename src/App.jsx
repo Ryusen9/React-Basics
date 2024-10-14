@@ -12,9 +12,11 @@
 // import BasicEffect from "./Components/BasicEffect"
 // import CounterEffect from "./Components/CounterEffect"
 // import FetchDataEffect from "./Components/FetchDataEffect"
-import UpdateUser from "./Components/UpdateUser";
-import UserProfile from "./Components/UserProfile";
-import { UserProvider } from "./UserContext";
+// import UpdateUser from "./Components/UpdateUser";
+// import UserProfile from "./Components/UserProfile";
+// import { UserProvider } from "./UserContext";
+// import UseReducer from "./Components/UseReducer";
+import CounterByReducer from "./Components/CounterByReducer";
 // import Weather from "./Components/Weather"
 function App() {
   return (
@@ -34,10 +36,12 @@ function App() {
       {/* <BasicEffect/> */}
       {/* <CounterEffect/> */}
       {/* <FetchDataEffect/> */}
-      <UserProvider>
+      {/* <UserProvider>
         <UserProfile />
         <UpdateUser/>
-      </UserProvider>
+      </UserProvider> */}
+      {/* <UseReducer/> */}
+      <CounterByReducer/>
     </>
   );
 }
