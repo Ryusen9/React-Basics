@@ -12,7 +12,8 @@
 // import BasicEffect from "./Components/BasicEffect"
 // import CounterEffect from "./Components/CounterEffect"
 // import FetchDataEffect from "./Components/FetchDataEffect"
-import UserProfile from "./Components/UserProfile"
+import UserProfile from "./Components/UserProfile";
+import { UserProvider } from "./UserContext";
 // import Weather from "./Components/Weather"
 function App() {
   return (
@@ -32,9 +33,11 @@ function App() {
       {/* <BasicEffect/> */}
       {/* <CounterEffect/> */}
       {/* <FetchDataEffect/> */}
-      <UserProfile/>
+      <UserProvider>
+        <UserProfile />
+      </UserProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
