@@ -16,7 +16,9 @@
 // import UserProfile from "./Components/UserProfile";
 // import { UserProvider } from "./UserContext";
 // import UseReducer from "./Components/UseReducer";
-import CounterByReducer from "./Components/CounterByReducer";
+// import CounterByReducer from "./Components/CounterByReducer";
+// import UseRef from "./Components/UseRef";
+// import Timer from "./Components/Timer";
 // import Weather from "./Components/Weather"
 function App() {
   return (
@@ -41,7 +43,9 @@ function App() {
         <UpdateUser/>
       </UserProvider> */}
       {/* <UseReducer/> */}
-      <CounterByReducer/>
+      {/* <CounterByReducer/> */}
+      {/* <UseRef/> */}
+      {/* <Timer/> */}
     </>
   );
 }
